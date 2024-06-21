@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>DH</title>
+  <style>
+    h1 {
+      color: brown
+    }
+  </style>
+</head>
+<body>
+  <h1>사랑에게, 송현숙</h1>
+  <p id="output"></p>
+  <script>
+    function showText(text) {
+      document.getElementById("output").innerHTML = text;
+    }
+
+    document.addEventListener("DOMContentLoaded", function() {
+       var text = `연초록빛 꿈을 달라하면<br>
+연보랏빛 꿈까지 내어주고<br>
+ 
+별을 달라하면<br>
+달까지 내어주고 <br>
+
+바람을 달라하면<br>
+넓은 들판까지<br>
+아낌없이 내어주고<br>
+
+하늘과 땅을<br>
+모두 달라하면<br>
+가슴 바닥까지 비워주고<br>
+
+더는 줄 것이 없을 때<br>
+사랑한다 말할 수 있게 해 주세요<br>`;
+      showText(text);
+    });
+  </script>
+</body>
+</html>
